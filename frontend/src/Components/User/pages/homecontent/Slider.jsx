@@ -43,26 +43,11 @@ const StyledHeroCaption = styled("div")`
 `;
 
 const Screen = () => {
-    const words = ["health", "sushi", "steak"];
-    const [currentIndex, setCurrentIndex] = React.useState(0);
-    
-    React.useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
-      }, 2000);
-    
-      return () => {
-        clearInterval(interval);
-      };
-    }, []);
-    const currentword=words[currentIndex]
-    
     
   return (
     <StyledSliderArea>
       <div className="slider-active">
-       
-        <StyledSingleSlider>
+      <StyledSingleSlider>
           <Container>
             <Grid container>
               <Grid item xs={12} sm={9} md={8} lg={9} xl={7}>
@@ -83,22 +68,16 @@ const Screen = () => {
                     component="h1"
                     className="cd-headline letters scale"
                   >
-                    We care about your {' '}
-                    <strong className="cd-words-wrapper">
-                      <AnimatedSpan >{currentword}</AnimatedSpan>
-                    </strong>
+                    We care about your health
                   </Typography>
                   <Typography
-                    variant="body1"
-                    data-animation="fadeInLeft"
-                    data-delay="0.1s"
                     fontSize={20}
+                    color="black"
                   >
                     Efficient hospital management system streamlining
                     operations, enhancing patient care, and optimizing resource
                     allocation
                   </Typography>
-                 
                 </StyledHeroCaption>
               </Grid>
             </Grid>

@@ -7,6 +7,7 @@ import h1_hero from '../../assets/h1_hero.png'
 import Image from 'mui-image'
 import { Box, fontSize } from "@mui/system";
 import Gallery from "./Gallery";
+import { blue } from "@mui/material/colors";
 
 
 const Homepage = () => {
@@ -85,20 +86,16 @@ const Homepage = () => {
 
             <Typography  sx={{
               width:"500px",
-             marginTop:"50px",
-             fontSize:"30px",
-             fontStyle:"italic"
+            marginTop:"50px",
+            fontSize:"30px",
+            fontStyle:"italic",
+            color: "blue"
             }}>
             “I am at an age where I just want to be fit and healthy our bodies are our
                                     responsibility! So start caring for your body and it will care for you. Eat clean it
-                                    will care for yout hard.”
+                                    will care for your hard.”
             </Typography>
-           
-            <Avatar
-  alt="Remy Sharp"
-  src="/static/images/avatar/1.jpg"
-  sx={{ width: 56, height: 56 }}
-/>
+          
             </Box>
             </Grid>
           </Grid>
@@ -109,7 +106,7 @@ const Homepage = () => {
         <Grid
           item
           xs={12}
-         
+        
           sx={{ display: "flex", justifyContent: "center", marginTop: "30px" }}
         >
           <Typography
@@ -117,6 +114,7 @@ const Homepage = () => {
               textAlign: "center",
               fontSize: "30px",
               fontWeight: "bold",
+              color: "red",
             }}
           >
             Gallery
