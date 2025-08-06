@@ -17,7 +17,7 @@ const Homepage = () => {
   const departments = [
     { name: "Anesthesiology And Critical Care" },
     { name: "Clinical Biochemistry" },
-    { name: "Department of Dermatology" },
+    { name: "Dermatology" },
     { name: "Microbiology" },
     { name: "Ophthalmology" },
   ];

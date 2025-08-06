@@ -76,7 +76,7 @@ const Screen = () => {
                   >
                     Efficient hospital management system streamlining
                     operations, enhancing patient care, and optimizing resource
-                    allocation
+                    allocation.
                   </Typography>
                 </StyledHeroCaption>
               </Grid>
