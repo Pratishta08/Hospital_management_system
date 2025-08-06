@@ -31,44 +31,8 @@ The password should be encrypted and the password field shouldn't be displayed i
 5. Express
 6. Redux Toolkit 
 
-## Installing
-
-# Installing - easy ::
-1.	Download the repository
-```
-git clone https://github.com/margiki/NHS-nodejs-webapp
-```
-2.	Open the Terminal (Linux & MacOS) or PowerShell (Windows) and change directory to the project folder.
-3. Go to frontend folder and type " npm install " in the terminal and press Enter.All the dependencies of frontend would be installed.
-```bash 
-cd frontend 
-npm install 
-```
-4. Go to backed  folder and type " npm install " in the terminal and press Enter.All the dependencies of backed  would be installed.
-```bash 
-cd backend  
-npm install 
-```
-
-5.	Go back to the Terminal (PowerShell) and be sure that you are pointing inside the project folder. To open the application, type ‘npm run dev ’ and press Enter.
-6.	The application should be live on the local port 3000.  
-7.	Type http://localhost:3000/ into a browser.
-
-8.	Now you should be inside the application
-
-
-
-## Gettint Into The project
-
-
-## Screenshots
-
 ## HomePage
 Hospital Management System in mern stack. This system has a ‘Home’ page from where the patient & administrator can login into their accounts by toggling the tabs accordingly...
-
-![homepage](<Screenshot (4).png>)
-
-
 
 ## Contact us page
 
@@ -100,25 +64,9 @@ After the process of Appointment is completed.Administrator add the invoice for 
 
  Go to dashboard to see history of Appointment.  Now user can pay his bill through khalti payment gateway.
 
-![user-dashboard](<Screenshot (17).png>)
-
-
-![khalti-payment](<Screenshot (18).png>)
-
-
-
-
-
 ## Admin module
 
    This module is the heart of our project where an admin can see the list of all patients. Admin also can add the invoice for each user..who make a appointment of doctor. Admin can also Add docotor ,Delete Doctor.
-
-   
-![admin-user](<Screenshot (20).png>)
-
-
-![admin-doctor](<Screenshot (19).png>)
-
 
 
 
