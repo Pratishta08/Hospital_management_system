@@ -91,9 +91,8 @@ const Homepage = () => {
             fontStyle:"italic",
             color: "blue"
             }}>
-            “I am at an age where I just want to be fit and healthy our bodies are our
-                                    responsibility! So start caring for your body and it will care for you. Eat clean it
-                                    will care for your hard.”
+            “I am at an age where I just want to be fit and healthy. Our bodies are our
+                                    responsibility! So start caring for your body and it will care for you. Eat clean....”
             </Typography>
           
             </Box>
