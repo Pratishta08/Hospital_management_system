@@ -112,7 +112,6 @@ const AmbulanceBooking = () => {
           </Grid>
           <Grid item xs={12}>
             <TextField
-             
               fullWidth
               placeholder="Zip Code"
               variant="outlined"
@@ -133,9 +132,10 @@ const AmbulanceBooking = () => {
                 onChange={handleChange}
                 required
               >
-                <MenuItem value="">Select an emergency type</MenuItem>
+                <MenuItem value="">Select emergency type</MenuItem>
                 <MenuItem value="Accident">Accident</MenuItem>
                 <MenuItem value="Medical Emergency">Medical Emergency</MenuItem>
+                <MenuItem value="Allergic Reaction">Allergic Reaction</MenuItem>
                 <MenuItem value="Other">Other</MenuItem>
               </Select>
             </FormControl>
