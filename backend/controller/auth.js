@@ -9,7 +9,7 @@ const signin = async (req, res) => {
     try {
         const { username, password } = req.body;
         if (!username | !password) {
-           return  res.status(202).json({ message: "incomplete content" });
+          return  res.status(202).json({ message: "incomplete content" });
         } else {
             auth_user = await user.findOne({ username });
             console.log(auth_user);
